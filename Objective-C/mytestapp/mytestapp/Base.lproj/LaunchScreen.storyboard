@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Az0-HS-kux">
+                                <rect key="frame" x="-5" y="208.5" width="385" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nyu-Vw-v5x">
+                                        <rect key="frame" x="0.0" y="0.0" width="385" height="250"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WdX-lG-Cud">
+                                                <rect key="frame" x="0.0" y="0.0" width="385" height="250"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9T9-4n-bTo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="385" height="250"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UFN-3O-vxc">
+                                                                <rect key="frame" x="0.0" y="0.0" width="385" height="250"/>
+                                                                <subviews>
+                                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="old_shipit_new_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="5wV-e9-T2I">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="385" height="250"/>
+                                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <color key="tintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="400" id="SOA-hw-CRy"/>
+                                                                            <constraint firstAttribute="width" secondItem="5wV-e9-T2I" secondAttribute="height" multiplier="833:541" id="dAJ-7q-yxM"/>
+                                                                            <constraint firstAttribute="width" secondItem="5wV-e9-T2I" secondAttribute="height" multiplier="833:541" id="iQk-cp-UhI"/>
+                                                                            <constraint firstAttribute="height" constant="250" id="qFw-No-4kL"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="5wV-e9-T2I" firstAttribute="centerY" secondItem="UFN-3O-vxc" secondAttribute="centerY" id="0jT-Nu-R8m"/>
+                                                                    <constraint firstItem="5wV-e9-T2I" firstAttribute="centerY" secondItem="UFN-3O-vxc" secondAttribute="centerY" id="1wz-AS-ZHd"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nyu-Vw-v5x" firstAttribute="centerX" secondItem="Az0-HS-kux" secondAttribute="centerX" id="dif-au-hTy"/>
+                                    <constraint firstItem="nyu-Vw-v5x" firstAttribute="centerY" secondItem="Az0-HS-kux" secondAttribute="centerY" id="veV-xS-nPO"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Az0-HS-kux" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7cv-JU-5tN"/>
+                            <constraint firstItem="Az0-HS-kux" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="88d-Wd-gtM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="old_shipit_new_logo.png" width="833" height="541"/>
+    </resources>
+</document>
